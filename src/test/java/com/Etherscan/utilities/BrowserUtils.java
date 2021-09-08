@@ -123,7 +123,6 @@ public class BrowserUtils {
         }
     }
 
-
     /**
      * Verifies whether the element is displayed on page
      *

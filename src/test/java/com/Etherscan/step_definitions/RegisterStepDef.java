@@ -64,6 +64,7 @@ public class RegisterStepDef {
 
         registerPage.clickCaptcha();
         BrowserUtils.waitFor(20);
+
     }
 
 
@@ -155,7 +156,8 @@ public class RegisterStepDef {
         registerPage.passwordStrengthMedium();
     }
     @Then("the user enters strong password")
-    public void the_user_enters_strong_password() {
+    public void the_user_enters_strong_password()
+    {
         registerPage.passwordBox.sendKeys("asad346()sa@E");
     }
 

@@ -52,6 +52,7 @@ public class RegisterPage extends BasePage {
     }
 
     public void fakeUserName() {
+
         String username = faker.name().firstName().concat(faker.name().lastName());
         usernameBox.sendKeys(username);
 
@@ -96,6 +97,7 @@ public class RegisterPage extends BasePage {
     }
 
     public void notMatchPassword() {
+
         String actualMsj = Driver.get().findElement(By.xpath("//*[@id=\"ContentPlaceHolder1_txtPassword2-error\"]")).getText();
         Assert.assertEquals("Password does not match, please check again.", actualMsj);
     }

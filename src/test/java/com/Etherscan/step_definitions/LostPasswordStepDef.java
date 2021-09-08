@@ -12,6 +12,7 @@ public class LostPasswordStepDef {
 
     @When("the user is on the lostpassword page")
     public void the_user_is_on_the_lostpassword_page() {
+
         Driver.get().get("https://etherscan.io/lostpassword");
     }
 
@@ -51,6 +52,7 @@ public class LostPasswordStepDef {
 
     @Then("the user turns back Login page")
     public void the_user_turns_back_Login_page() {
+
         lostPasswordPage.turnToSignIn();
     }
 
