@@ -1,6 +1,7 @@
 Feature:the user who already has an account can Sign in
 
   Background:
+
     Given the user on the Registration Page
 
   Scenario Outline: the user who already has an account can Sign in

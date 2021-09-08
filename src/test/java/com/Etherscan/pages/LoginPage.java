@@ -40,6 +40,7 @@ public class LoginPage extends BasePage {
         BrowserUtils.clickWithJS(loginBtn);
 
     }
+
     public void signUpLink(){
         Assert.assertEquals("Etherscan Registration Page",Driver.get().getTitle());
     }
