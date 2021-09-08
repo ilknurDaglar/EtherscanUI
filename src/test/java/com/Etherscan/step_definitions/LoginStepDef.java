@@ -14,6 +14,7 @@ public class LoginStepDef {
 
     @When("the user who already has an account clicks Signin button")
     public void the_user_who_already_has_an_account_clicks_Signin_button() {
+
         loginPage.signInBtn.click();
         BrowserUtils.waitFor(3);
     }
@@ -35,7 +36,6 @@ public class LoginStepDef {
     public void theUserEntersToPasswordBox(String password) {
 
         loginPage.passwordBox.sendKeys(password);
-
     }
 
     @When("the user clicks captca")
@@ -80,6 +80,7 @@ public class LoginStepDef {
 
     @When("the user clicks Forgot your password? link")
     public void the_user_clicks_Forgot_your_password_link() {
+
         loginPage.forgotPasswordBtn.click();
     }
 

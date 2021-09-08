@@ -41,6 +41,7 @@ public class LostPasswordPage extends BasePage {
     public void turnToSignIn() {
 
         Assert.assertEquals(Driver.get().getTitle(),"Etherscan Login Page");
+
     }
 
 }
