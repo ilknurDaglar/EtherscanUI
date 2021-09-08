@@ -55,7 +55,6 @@ public class RegisterPage extends BasePage {
 
         String username = faker.name().firstName().concat(faker.name().lastName());
         usernameBox.sendKeys(username);
-
     }
 
     public void fakeEmail() {

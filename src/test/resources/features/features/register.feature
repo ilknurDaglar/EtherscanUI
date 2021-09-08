@@ -60,7 +60,6 @@ Feature: the user wants to register a new account
    Then Strength: Strong! message should display
 
 
-
 @wip
     ### BUG 3 ###
   Scenario:Password length will be at least 5 characters or 6 characters

@@ -8,6 +8,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LostPasswordStepDef {
+
     LostPasswordPage lostPasswordPage = new LostPasswordPage();
 
     @When("the user is on the lostpassword page")

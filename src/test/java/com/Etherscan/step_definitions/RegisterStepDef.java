@@ -168,7 +168,6 @@ public class RegisterStepDef {
     }
 
 
-
     @Then("Please accept our Terms and Conditions. message should display")
     public void please_accept_our_Terms_and_Conditions_message_should_display() {
 
@@ -186,11 +185,11 @@ public class RegisterStepDef {
     public void yourPasswordMustBeAtLeastFiveCharactersLongMessageShouldDisplay() {
 
         registerPage.passwordMin5message();
-
     }
 
     @And("User enters five character password")
     public void userEntersFiveCharacterPassword() {
+
         registerPage.passwordBox.clear();
         registerPage.passwordBox.sendKeys("12345");
     }
