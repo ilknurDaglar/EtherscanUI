@@ -1,7 +1,6 @@
 Feature:the user who already has an account can Sign in
 
   Background:
-
     Given the user on the Registration Page
 
   Scenario Outline: the user who already has an account can Sign in
@@ -13,7 +12,6 @@ Feature:the user who already has an account can Sign in
     And the user clicks captca
     And the user clicks Login button
     Then Client portal and services page should open
-
     Examples:
       | username | password |
       | olacak   | 123456   |
