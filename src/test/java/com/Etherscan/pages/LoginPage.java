@@ -38,7 +38,6 @@ public class LoginPage extends BasePage {
         Driver.get().switchTo().defaultContent();
         BrowserUtils.waitFor(3);
         BrowserUtils.clickWithJS(loginBtn);
-
     }
 
     public void signUpLink(){

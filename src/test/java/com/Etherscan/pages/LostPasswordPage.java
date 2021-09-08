@@ -12,7 +12,6 @@ public class LostPasswordPage extends BasePage {
     @FindBy(css = "#ContentPlaceHolder1_TextBox1")
     public WebElement forgatPageEmail;
 
-
     @FindBy(xpath = "//*[@id=\"ContentPlaceHolder1_btnLogin\"]")
     public WebElement resetPasswordBtn;
 

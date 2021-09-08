@@ -3,6 +3,7 @@ Feature:the user forgets password
   Background:
     Given the user on the Registration Page
 
+
   Scenario: he user forgot password and tries to get a new password
     When the user is on the lostpassword page
     And the user enters "son1gayret@gmail.com" to emailbox
